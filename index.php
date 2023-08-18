@@ -13,7 +13,7 @@ if (isset($_POST)) {
    $mensagem.="IP: " . $_SERVER['REMOTE_ADDR'] . "\n";
    $mensagem.="Navegador: " . $_SERVER['HTTP_USER_AGENT'] . "\n";
    $mensagem.="---\n";
-   $mensagem.="Se você gosta desse projeto considere enviar um pix:\n8d28bec9-327f-41ee-ad6b-456318c5cce1\n------------------------------------------\n";
+   $mensagem.="Se gostas desse projeto considere enviar um pix:\n8d28bec9-327f-41ee-ad6b-456318c5cce1\n------------------------------------------\n";
 
    // Codificar a mensagem como utf8
    $mensagem=utf8_encode($mensagem);
